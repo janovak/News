@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">News</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="number_of_tweets">Unknown</string>
+    <string name="button_refresh">Refresh</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
