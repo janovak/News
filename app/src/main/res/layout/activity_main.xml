@@ -1,31 +1,28 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
     android:orientation="vertical">
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/buttonGetNews"
+        android:textAllCaps="false"
         android:layout_marginTop="10dp"
         android:layout_gravity="center"
         android:onClick="getNews"/>
 
-    <EditText android:id="@+id/textEdit"
-        android:hint="@string/textEditHint"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_gravity="center"/>
-
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/buttonAdd"
-        android:onClick="addHandle"
-        android:layout_gravity="center"/>
-
+        android:text="@string/buttonAddRemove"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:onClick="addRemove"/>
 
 </LinearLayout>

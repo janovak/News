@@ -36,7 +36,7 @@ public class DetectInternet {
     public boolean hasInternetConnection(Context context) {
         if (isNetworkAvailable(context)) {
             try {
-                HttpURLConnection url = (HttpURLConnection) (new URL("http;//www.google.com").openConnection());
+                HttpURLConnection url = (HttpURLConnection) (new URL("http://www.google.com").openConnection());
                 url.setRequestProperty("User-Agent", "Test");
                 url.setRequestProperty("Connection", "close");
                 url.setConnectTimeout(1500);

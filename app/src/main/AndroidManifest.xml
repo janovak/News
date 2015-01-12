@@ -18,6 +18,10 @@
             android:name=".DisplayNews"
             android:label="@string/title_activity_display_news" >
         </activity>
+        <activity
+            android:name=".AddRemove"
+            android:label="@string/title_activity_add_remove" >
+        </activity>
     </application>
 
 </manifest>

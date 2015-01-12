@@ -3,11 +3,15 @@
 
     <string name="app_name">News</string>
     <string name="title_activity_main">News</string>
-    <string name="textEditHint">Twitter handle</string>
+    <string name="handleHint">Twitter handle</string>
     <string name="buttonAdd">Add</string>
+    <string name="buttonRemove">Remove</string>
+    <string name="buttonAddRemove">Add and remove sources</string>
     <string name="buttonGetNews">Get news</string>
+    <string name="removeHintText">Tap and hold a Twitter handle to remove it</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_display_news">DisplayNews</string>
+    <string name="title_activity_display_news">News</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_add_remove">Add and Remove</string>
 
 </resources>
